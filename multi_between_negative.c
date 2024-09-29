@@ -7,7 +7,7 @@ int multi_between_negative(int array[], int size){
 	int index_last = index_last_negative(array, size);
 	int result = 1;
 
-	for(int i = index_first; index_first < index_last; i++){
+	for(int i = index_first; i < index_last; i++){
 		result *= array[i];
 	}
 
